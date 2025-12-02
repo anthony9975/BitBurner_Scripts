@@ -1,0 +1,1 @@
+These are my BitBurner scripts. I am making them into a Git Repo per Manas' request.
