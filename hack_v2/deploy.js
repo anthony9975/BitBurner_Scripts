@@ -25,8 +25,8 @@ export async function main(ns) {
                                 ns.getWeakenTime(target));
 
     // Get security and money
-    const min_security = ns.getServerMinSecurityLevel(host);
-    const max_money = ns.getServerMaxMoney(host);
+    const min_security = ns.getServerMinSecurityLevel(target);
+    const max_money = ns.getServerMaxMoney(target);
 
     // Log the results
     ns.print("Manage Ram: " + ns.getScriptRam("hack_v2/manage.js"));
